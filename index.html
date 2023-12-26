@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Pag1.css">
+    <title>Minha Página</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Projeto final</h1>
+            <nav>
+                 <p> Projeto Final da Enxurrada de bits</p>
+            </nav>
+        </header>
+
+        <section id="conteudo">
+            <article>
+                <h2>Boas-vindas ao Meu Projeto Final</h2>
+                <p>Este é apenas um site simples de como podemos usar o Javascript e o HTML como um conjunto</p>
+                
+            </article>
+
+            <article onclick="redirect('Sobre.html')" class="artigos">
+                <h2>Sobre</h2>
+                <p>Clique aqui para saber um pouco mais sobre o Site</p>
+            </article>
+
+            <article onclick="redirect('Funcionalidades.html')" class="artigos">
+                <h2>Utilidades</h2>
+                <p>Clique aqui para usar algumas de suas funcionalidades</p>
+            </article>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Projeto Final. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="redirect.js"></script>
+</body>
+</html>
